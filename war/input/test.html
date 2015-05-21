@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Hello App Engine</title>
+  </head>
+<body>
+
+
+<form name="form1" method="post" action="/service/sms/put" id="form1">
+<span>Receiver phone number (separated by ','):</span><br/>
+<span><input name="receiver" value="" /></span>
+<br/>
+<span>SMS content :</span><br/>
+<span>
+<textarea cols="50" rows="10" name="content"></textarea>
+</span> 
+<br/>
+<input type="hidden" name="returnInputPage" value="true" />
+<input type="hidden" name="successMsg" value="send ok" />
+<input type="submit" />
+</form>
+</body>
+</html>

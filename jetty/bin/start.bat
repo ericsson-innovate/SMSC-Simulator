@@ -1,0 +1,1 @@
+call smsqueue.bat console
